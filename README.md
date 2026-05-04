@@ -138,3 +138,9 @@ Bruno Luiz
 📎 Observação
 
 Este projeto faz parte do meu desenvolvimento na área de análise de dados.
+
+## 🤝 Origem do desafio
+
+Este projeto foi desenvolvido a partir de um desafio compartilhado em uma comunidade de análise de dados.
+
+A experiência reforçou a importância de aprender na prática e trocar conhecimento com outros profissionais da área.
