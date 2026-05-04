@@ -66,7 +66,9 @@ Isso gera duplicidade na contagem de acidentes.
 Para corrigir isso, foi utilizada a seguinte abordagem: ```sql 
 COUNT(DISTINCT id)
 
-Assim, cada acidente passou a ser contado apenas uma vez.
+Assim, cada acidente passou a ser contado apenas uma vez
+
+---
 
 📈 Principais análises
 📅 Série histórica
@@ -96,6 +98,8 @@ Identificação dos mais frequentes
 
 👉 Resultado:
 Colisão traseira é o tipo mais comum
+
+---
 
 📊 Principais métricas
 Total de acidentes
