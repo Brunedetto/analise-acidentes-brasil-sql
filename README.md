@@ -45,11 +45,15 @@ Dados públicos da PRF (Polícia Rodoviária Federal)
 - Conversão para `.csv`
 - Conexão com DuckDB
 
+---
+
 ### 2. Identificação de inconsistências
 
 Durante a análise, foi identificado um problema:
 
 👉 O total de acidentes em 2024 estava acima de 600 mil, um valor incoerente.
+
+---
 
 ### ⚠️ Problema encontrado
 
@@ -58,6 +62,8 @@ A base de dados não possui uma linha por acidente, mas sim:
 👉 **uma linha por vítima envolvida**
 
 Isso gera duplicidade na contagem de acidentes.
+
+---
 
 ### ✅ Solução aplicada
 
@@ -85,10 +91,10 @@ Estados com mais vítimas
 👉 Destaque:
 Minas Gerais lidera em volume total de acidentes e vítimas
 
+---
+
 ⚠️ Gravidade dos acidentes
 Cálculo de vítimas por acidente
-
----
 
 👉 Insight importante:
 Estados com menor número de acidentes podem ter maior gravidade
