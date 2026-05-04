@@ -35,17 +35,15 @@ Dados públicos da PRF (Polícia Rodoviária Federal)
 - SQL
 - Pandas
 
----
-
 ## 🔍 Etapas da análise
+
+---
 
 ### 1. Tratamento inicial dos dados
 
 - Leitura do arquivo `.parquet`
 - Conversão para `.csv`
 - Conexão com DuckDB
-
----
 
 ### 2. Identificação de inconsistências
 
@@ -63,19 +61,14 @@ A base de dados não possui uma linha por acidente, mas sim:
 
 Isso gera duplicidade na contagem de acidentes.
 
----
-
 ### ✅ Solução aplicada
 
-Para corrigir isso, foi utilizada a seguinte abordagem:
-
-```sql
+Para corrigir isso, foi utilizada a seguinte abordagem: ```sql 
 COUNT(DISTINCT id)
 
 Assim, cada acidente passou a ser contado apenas uma vez.
 
 📈 Principais análises
-
 📅 Série histórica
 Análise da evolução dos acidentes ao longo dos anos
 
@@ -96,8 +89,8 @@ Cálculo de vítimas por acidente
 Estados com menor número de acidentes podem ter maior gravidade
 
 Exemplo:
-
 Amazonas apresentou maior média de vítimas por acidente
+
 🚗 Tipos de acidentes
 Identificação dos mais frequentes
 
@@ -112,12 +105,13 @@ Quantidade de feridos
 Percentual de mortos
 Percentual de feridos
 Média de vítimas por acidente
+
 🚀 Próximos passos
 Construção de dashboard no Power BI
 Visualização interativa dos dados
 Criação de storytelling com insights
-📌 Autor
 
+📌 Autor
 Bruno Luiz
 
 📎 Observação
